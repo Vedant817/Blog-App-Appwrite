@@ -2,7 +2,7 @@ import React, { useId } from 'react'
 
 //! We are using this because each thing received inside the input will be forwarded outside for each page so logic has to be handled accordingly. 
 const Input = React.forwardRef(function Input({ label, type = "text", className = "", ...props }, ref) {
-    const id = useId
+    const id = useId()
     return (
         <div className='w-full'>
             {label && (
