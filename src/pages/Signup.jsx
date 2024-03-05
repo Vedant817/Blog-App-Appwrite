@@ -1,4 +1,4 @@
-import {Signup as SignupComponent} from '../components/Signup'
+import {Signup as SignupComponent} from '../components/index'
 
 const Signup = () => {
   return (
