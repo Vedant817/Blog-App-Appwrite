@@ -1,8 +1,10 @@
-import React from 'react'
+import {Signup as SignupComponent} from '../components/Signup'
 
 const Signup = () => {
   return (
-    <div>Signup</div>
+    <div className='py-8'>
+      <SignupComponent />
+    </div>
   )
 }
 
